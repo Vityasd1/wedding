@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 @tailwind base;
@@ -109,7 +109,7 @@ a {
 }
 .tl-item:after {
     content: '';
-    background: rgba(3, 22, 37, 0.85);
+    background: rgba(244, 124, 124, 0.10);
     opacity: 1;
     transition: opacity 0.5s ease;
 }
@@ -191,6 +191,7 @@ a {
 @media screen and (max-width: 768px) {
     #timeline{
         flex-direction: column;
+        overflow: hidden !important;
     }
     .tl-item{
         width: 100% !important;
@@ -201,5 +202,7 @@ a {
     .tl-item:hover {
         content: '';
         width: 105% !important;
+        transform: scale(1);
+        overflow: hidden !important;
     }
 }

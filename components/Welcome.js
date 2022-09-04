@@ -40,16 +40,16 @@ export const Welcome = (props) => {
                         className={"h-full relative w-full mb-0 pb-0"}
                     >
                         <SwiperSlide><Image src={"/images/us7.jpg"} className="object-center grayscale-[80%] " layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us2.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='contain'></Image></SwiperSlide>
+                        <SwiperSlide><Image src={"/images/us2.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
                         <SwiperSlide><Image src={"/images/us3.jpg"} className="object-32 grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us4.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='contain'></Image></SwiperSlide>
+                        <SwiperSlide><Image src={"/images/us4.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
                         <SwiperSlide><Image src={"/images/us5.jpg"} className="grayscale-[80%] object-40" layout='fill'  objectFit='cover'></Image></SwiperSlide>
                         <SwiperSlide><Image src={"/images/us6.png"} className="grayscale-[80%] object-32" layout='fill' objectFit='cover'></Image></SwiperSlide>
                         <SwiperSlide><Image src={"/images/us1.jpeg"} className="object-32 grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
                     </Swiper>
                     {/*<Image src={"/images/logo.png"}  width={600} height={600}></Image>*/}
                 </div>
-                <p className="text-center text-main text-6xl mb-12 absolute bottom-40 z-10 left-[43%]" ref={el} ></p>
+                <p className="text-center text-main text-6xl mb-12 absolute bottom-40 z-10 md:left-[43%]" ref={el} ></p>
             </div>
         </>
     );

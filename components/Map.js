@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Image from 'next/image'
-const focusedBtn = "w-40 p-3 rounded text-white border-r-2 border-t-2 border-main active:border-none bg-gray-600 focus:transition-all"
-const normalBtn = "w-40 p-3 bg-main rounded hover:bg-gray-600 transition ease-in duration-500 text-white border-b-4 border-l-4 border-gray-600 focus:transition-all"
+const focusedBtn = "w-40 p-3 m-3 md:m-0 rounded text-white border-2 border-main active:border-none bg-main focus:transition-all"
+const normalBtn = "w-40 p-3 m-3 md:m-0 rounded hover:bg-main transition ease-in duration-500 border border-main text-main focus:transition-all"
 export const Map = (props) => {
 
     const [tab, setTab] = useState(0);
@@ -12,8 +12,8 @@ export const Map = (props) => {
                 Helyszínek
             </div>
             <div className="flex flex center justify-center items-center mb-2 gap-2 mt-12">
-                <button onClick={() => setTab(0)} className={tab === 0 ? focusedBtn : normalBtn} >Templom</button>
-                <button onClick={() => setTab(1)} className={tab === 1 ? focusedBtn : normalBtn} >Lagzi</button>
+                <button onClick={() => setTab(0)} className={tab === 0 ? focusedBtn : normalBtn} >Templomi</button>
+                <button onClick={() => setTab(1)} className={tab === 1 ? focusedBtn : normalBtn} >Polgári</button>
             </div>
             <div className="pb-9">
                 <div className="p-3 bg-white bg-opacity-75  container mx-auto rounded">
