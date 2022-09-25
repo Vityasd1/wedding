@@ -1,58 +1,134 @@
-import React,{useRef,useEffect} from 'react';
+import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import Typed from "typed.js";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay,EffectFade,EffectCube,EffectCoverflow,EffectFlip,EffectCards,EffectCreative  } from 'swiper'
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-fade';
+import Typed from 'typed.js'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/effect-fade'
+import us1 from '../public/images/carousel/elso.webp'
+import us2 from '../public/images/carousel/masodik.webp'
+import us3 from '../public/images/carousel/harmadik.webp'
+import us4 from '../public/images/carousel/negyedik_.webp'
+import us5 from '../public/images/carousel/otidik.webp'
+import us6 from '../public/images/carousel/hatodik.webp'
+import us7 from '../public/images/carousel/hetedik.webp'
+import us8 from '../public/images/carousel/kilencedik.webp'
+import us9 from '../public/images/carousel/elso.webp'
+import us0 from '../public/images/carousel/tizedik.webp'
+import { Hearts } from 'react-loader-spinner'
 
 export const Welcome = (props) => {
-    const el = useRef(null);
-    // Create reference to store the Typed instance itself
-    const typed = useRef(null);
-    useEffect(() => {
-        const options = {
-            strings: [
-                "Ajka, 2023.05.06"
-            ],
-            typeSpeed: 50,
-            backSpeed: 50,
-        };
+  const el = useRef(null)
+  const typed = useRef(null)
+  const [ loading, setLoading ] = useState(true)
+  useEffect(() => {
+    setLoading(false)
+  }, [])
 
-        typed.current = new Typed(el.current, options);
+  useEffect(() => {
+    if (!loading) {
+      const options = {
+        strings: [
+          'Ajka, 2023.05.06',
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+      }
 
-        return () => {
+      typed.current = new Typed(el.current, options)
 
-            typed.current.destroy();
-        }
-    }, [])
+      return () => {
 
-    return (
-        <>
-            <div className="border-t-4 border-b-4 md:border-4 border-main font-indie h-[700px] mb-0 pb-0">
-                <div className="flex items-center justify-center h-full ">
-                    <Swiper
-                         modules={[Autoplay]}
-                        slidesPerView={1}
-                        autoplay={{ delay: 3000 }}
-                        className={"h-full relative w-full mb-0 pb-0"}
-                    >
-                        <SwiperSlide><Image src={"/images/us7.jpg"} className="object-center grayscale-[80%] " layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us2.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us3.jpg"} className="object-32 grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us4.jpg"} className="object-center grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us5.jpg"} className="grayscale-[80%] object-40" layout='fill'  objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us6.png"} className="grayscale-[80%] object-32" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                        <SwiperSlide><Image src={"/images/us1.jpeg"} className="object-32 grayscale-[80%]" layout='fill' objectFit='cover'></Image></SwiperSlide>
-                    </Swiper>
-                    {/*<Image src={"/images/logo.png"}  width={600} height={600}></Image>*/}
-                </div>
-                <p className="text-center text-main text-6xl mb-12 absolute bottom-40 z-10 md:left-[43%]" ref={el} ></p>
-            </div>
-        </>
-    );
-};
+        typed.current.destroy()
+      }
+    }
+  }, [ loading ])
+
+  return (
+    <>
+      {!loading &&
+      <div className="border-t-4 border-b-4 md:border-4 border-main relative font-indie h-[700px] mb-0 pb-0">
+        <div className="hidden lg:flex items-center justify-center h-full ">
+          <Swiper
+            modules={[ Autoplay ]}
+            slidesPerView={3}
+            autoplay={{ delay: 3000 }}
+
+            className={'hidden lg:flex h-full w-full mb-0 pb-0'}
+          >
+            <SwiperSlide><Image src={us1} priority={true} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us2} priority={true} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us3} priority={true} className="grayscale-[80%] object-[74%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us4} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us5} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us6} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us9} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us0} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="flex lg:hidden items-center justify-center h-full ">
+          <Swiper
+            modules={[ Autoplay ]}
+            slidesPerView={1}
+            autoplay={{ delay: 3000 }}
+
+            className={'h-full relative w-full mb-0 lg:invisible  pb-0'}
+          >
+            <SwiperSlide><Image src={us1} priority={true} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us2} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us3} className="grayscale-[80%] object-[74%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us4} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us5} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us6} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us9} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+            <SwiperSlide><Image src={us0} className="grayscale-[80%]" layout={'fill'}
+                                objectFit={'cover'} /></SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="absolute rounded max-w-md mr-auto ml-auto bottom-20 left-0 z-10 right-0">
+
+          <p className="text-center text-white border-t border-b bg-black/50 p-3 text-6xl " ref={el} />
+        </div>
+      </div>
+      }
+      {loading &&
+      <div className="border-t-4 border-b-4 md:border-4 border-main flex items-center justify-center h-[700px] mb-0 pb-0">
+        <Hearts
+          height="150"
+          width="150"
+          radius="9"
+          color="green"
+          ariaLabel="loading"
+          wrapperStyle
+          wrapperClass
+        />
+      </div>
+      }
+    </>
+  )
+}
 
 

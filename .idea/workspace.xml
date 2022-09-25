@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/elso.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/harmadik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/hatodik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/hetedik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/kilencedik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/masodik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/negyedik_.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/nyolcadik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/otidik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/carousel/tizedik.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utlis/ImageImport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProgramContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProgramContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -49,9 +55,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public" />
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\carousel" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\carousel" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images" />
     </key>
   </component>
@@ -79,7 +88,8 @@
       <workItem from="1660741762522" duration="4500000" />
       <workItem from="1660804242789" duration="8305000" />
       <workItem from="1662216506846" duration="7649000" />
-      <workItem from="1662283346733" duration="4855000" />
+      <workItem from="1662283346733" duration="6529000" />
+      <workItem from="1664093807691" duration="8918000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>
@@ -88,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662228744314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mobil nézet javíátsa">
+      <created>1662288329862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662288329862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Esküvői honlap félkész" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esküvői honlap félkész" />
+    <MESSAGE value="mobil nézet javíátsa" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobil nézet javíátsa" />
   </component>
 </project>
