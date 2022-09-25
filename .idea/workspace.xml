@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/elso.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/harmadik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/hatodik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/hetedik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/kilencedik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/masodik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/negyedik_.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/nyolcadik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/otidik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/carousel/tizedik.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utlis/ImageImport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,7 @@
       <workItem from="1660804242789" duration="8305000" />
       <workItem from="1662216506846" duration="7649000" />
       <workItem from="1662283346733" duration="6529000" />
-      <workItem from="1664093807691" duration="8918000" />
+      <workItem from="1664093807691" duration="9807000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>
@@ -105,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662288329862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="header javítás">
+      <created>1664126400673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664126400673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Esküvői honlap félkész" />
     <MESSAGE value="mobil nézet javíátsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobil nézet javíátsa" />
+    <MESSAGE value="header javítás" />
+    <option name="LAST_COMMIT_MESSAGE" value="header javítás" />
   </component>
 </project>
