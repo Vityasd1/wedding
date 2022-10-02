@@ -100,8 +100,6 @@ export const Welcome = (props) => {
           radius="9"
           color="green"
           ariaLabel="loading"
-          wrapperStyle
-          wrapperClass
         />
       </div>
       }

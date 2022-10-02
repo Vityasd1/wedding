@@ -67,8 +67,8 @@ export const Accommodation = ({ title, infos,places,link }) => {
         </button>
       </div>
       <div className="row-span-3 text-center text-lg">
-        {infos.map((el) => {
-          return <p>{el}</p>
+        {infos.map((el,index) => {
+          return <p key={index}>{el}</p>
         })
 
         }
@@ -91,7 +91,7 @@ export default function Booking () {
       </div>
       <div className="flex flex-wrap items-center justify-center gap-12 py-20">
         {Accommodations.map(el => (
-            <Accommodation title={el.title} link={el.link} infos={el.infos} />
+            <Accommodation key={el.title} title={el.title} link={el.link} infos={el.infos} />
         ))
 
         }

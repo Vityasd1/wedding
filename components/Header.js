@@ -11,18 +11,33 @@ export const Header = (props) => {
     <>
       <div className={'hidden md:flex flex-row justify-evenly items-center h-24 text-main'}>
         <p className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Meghívó</p>
-        <Link href={'/program'}><p
-          className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Program</p></Link>
-        <Link href={'/'}>
-          <Image className={'cursor-pointer'} src={'/images/logo.png'} width={100} height={100} />
+        <Link href={'/program'}>
+        <a>
+          <p
+          className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Program</p>
+        </a>
         </Link>
-        <Link href={'/booking'}><p
-          className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Szállás opciók</p></Link>
+        <Link href={'/'}>
+        <a>
+          <Image className={'cursor-pointer'} src={'/images/logo.png'} width={100} height={100} />
+        </a>
+        </Link>
+        <Link href={'/booking'}>
+        <a>
+          <p
+          className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Szállás opciók</p>
+        </a>
+        </Link>
+
         <p className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Hasznos infók</p>
       </div>
       <div className='flex md:hidden justify-between items-center p-3'>
         <MenuIcon onClick={() => setToggle(!toggle)} className={'h-6 cursor-pointer text-black'} />
-        <Link href={'/'}><img src='/images/logo.png' alt='Logo' className='h-6' /></Link>
+        <Link href={'/'}>
+        <a>
+          <img src='/images/logo.png' alt='Logo' className='h-6' />
+        </a>
+        </Link>
       </div>
 
       {toggle &&
@@ -32,7 +47,10 @@ export const Header = (props) => {
           {/*    <XIcon className="h-6" onClick={() => setToggle(false)}/>*/}
           {/*</div>*/}
           <div className="flex w-full items-center justify-between">
-            <Link href={'/'}><img src='/images/logo.png' alt='Logo' onClick={() => setToggle(!toggle)} className='h-24' /></Link>
+            <Link href={'/'}>
+              <a>
+                <img src='/images/logo.png' alt='Logo' onClick={() => setToggle(!toggle)} className='h-24' />
+              </a></Link>
             {/*<XIcon className="h-12" onClick={() => setToggle(false)}/>*/}
           </div>
           <div className='flex flex-col items-center gap-3 justify-center text-main'>
