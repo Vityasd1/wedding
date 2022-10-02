@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <workItem from="1662216506846" duration="7649000" />
       <workItem from="1662283346733" duration="6529000" />
       <workItem from="1664093807691" duration="9807000" />
-      <workItem from="1664696169614" duration="11834000" />
+      <workItem from="1664696169614" duration="13565000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664706855964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="key hozzaadas warning megszuntetes">
+      <created>1664710317688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664710317688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +129,7 @@
     <MESSAGE value="mobil nézet javíátsa" />
     <MESSAGE value="header javítás" />
     <MESSAGE value="szallas felulet és képek" />
-    <option name="LAST_COMMIT_MESSAGE" value="szallas felulet és képek" />
+    <MESSAGE value="key hozzaadas warning megszuntetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="key hozzaadas warning megszuntetes" />
   </component>
 </project>

@@ -11,13 +11,13 @@ export const About = (props) => {
                 <div className="flex items-center justify-center gap-12">
                     <div className="flex flex-col items-center justify-center gap-3">
                         <div className="bg-main rounded-full relative w-32 h-32">
-                            <Image src={kata} layout="fill" alt={"Kata"} objectFit="cover" className="rounded-full object-2080"/>
+                            <Image src={kata} priority={true} layout="fill" alt={"Kata"} objectFit="cover" className="rounded-full object-2080"/>
                         </div>
                         <p className="text-xl" >Kata</p>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-3">
                         <div className="bg-main rounded-full relative w-32 h-32">
-                            <Image src={vitya} alt={"Viktor"} layout="fill" objectFit="cover" className="rounded-full object-2080"/>
+                            <Image src={vitya} priority={true} alt={"Viktor"} layout="fill" objectFit="cover" className="rounded-full object-2080"/>
                         </div>
                         <p className="text-xl">Vitya</p>
                     </div>

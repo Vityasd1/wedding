@@ -37,13 +37,13 @@ export const Slider = () => (
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us7} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us8} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us9} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us9} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us0} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us0} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
   </Swiper>
 )
