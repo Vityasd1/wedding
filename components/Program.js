@@ -25,11 +25,11 @@ export const Program = (props) => {
                    <ProgramContent program={"Lagzi"} time={["",<br key={3}/>,""]} location={["Ajka",<br key={1}/>, "Nomádia Park"]}/>
                </div>
                <section id="timeline">
-                    <TimelineItem time={'2014.06.15'} url={'url(images/timeline_fuge.jpg)'} title={'Első randi'} description={"Közös osztályba jártunk, ott találkoztunk először, de csak 11. év végén találtunk igazán egymásra."}/>
-                    <TimelineItem time={'2019.04.02'} url={'url(images/timeline_fuge.jpg)'} title={'Összeköltözés'} description={"Az egyetem vége felé úgy döntöttünk, hogy megpróbáljuk elkezdeni közös életünket."}/>
-                    <TimelineItem time={'2021.05.07'} url={'url(images/timeline_fuge.jpg)'} title={'Füge'} description={"Csatlakozott a csapatunkhoz egy kis szeretetgombóc."}/>
-                    <TimelineItem time={'2022.02.05'} url={'url(images/timeline_eljegyzes.jpg)'} title={'Eljegyzés'} description={"A Duna partján egy csodaszép napon, megtörtént az eljegyzés."}/>
-                    <TimelineItem time={'2023.05.06'} url={'url(images/timeline_wedding.JPG)'} title={'Esküvő'} description={"A történet folytatódik..."}/>
+                    <TimelineItem time={'2014.06.15'} url={'url(images/timeline/elsorandi.webp)'} title={'Első randi'} description={"Közös osztályba jártunk, ott találkoztunk először, de csak 11. év végén találtunk igazán egymásra."}/>
+                    <TimelineItem time={'2019.04.02'} url={'url(images/timeline/home.webp)'} title={'Összeköltözés'} description={"Az egyetem vége felé úgy döntöttünk, hogy megpróbáljuk elkezdeni közös életünket."}/>
+                    <TimelineItem time={'2021.05.07'} url={'url(images/timeline/fuge.webp)'} title={'Füge'} description={"Csatlakozott a csapatunkhoz egy kis szeretetgombóc."}/>
+                    <TimelineItem time={'2022.02.05'} url={'url(images/timeline/eljegyz.webp)'} title={'Eljegyzés'} description={"A Duna partján egy csodaszép napon, megtörtént az eljegyzés."}/>
+                    <TimelineItem time={'2023.05.06'} url={'url(images/timeline/esk.webp)'} title={'Esküvő'} description={"A történet folytatódik..."}/>
 
                </section>
 

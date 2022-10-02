@@ -48,6 +48,9 @@ module.exports = {
     fontFamily: {
       'indie': ['Playfair Display', 'cursive'],
     },
+    objectPosition: {
+      '2080': '20% 80%',
+    }
   },
   plugins: [],
 }

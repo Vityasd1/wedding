@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/about/kata.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about/vitya.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeline/eljegyz.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeline/elsorandi.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeline/esk.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeline/fuge.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/timeline/home.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Program.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Program.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utlis/ImageImport.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/welcome" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -41,6 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\welcome" />
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\timeline" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\carousel" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images" />
@@ -76,6 +90,7 @@
       <workItem from="1662216506846" duration="7649000" />
       <workItem from="1662283346733" duration="6529000" />
       <workItem from="1664093807691" duration="9807000" />
+      <workItem from="1664696169614" duration="9951000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>

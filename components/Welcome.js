@@ -17,6 +17,38 @@ import us9 from '../public/images/carousel/elso.webp'
 import us0 from '../public/images/carousel/tizedik.webp'
 import { Hearts } from 'react-loader-spinner'
 
+export const Slider = () => (
+  <Swiper
+    modules={[ Autoplay ]}
+    slidesPerView={3}
+    autoplay={{ delay: 3000 }}
+
+    className={'hidden lg:flex h-full w-full mb-0 pb-0'}
+  >
+    <SwiperSlide><Image src={us1} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us2} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us3} priority={true} className="grayscale-[80%] object-[74%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us4} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us5} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us7} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us8} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us9} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+    <SwiperSlide><Image src={us0} priority={true} className="grayscale-[80%]" layout={'fill'}
+                        objectFit={'cover'} /></SwiperSlide>
+  </Swiper>
+)
+
+
 export const Welcome = (props) => {
   const el = useRef(null)
   const typed = useRef(null)
@@ -49,64 +81,10 @@ export const Welcome = (props) => {
       {!loading &&
       <div className="border-t-4 border-b-4 md:border-4 border-main relative font-indie h-[700px] mb-0 pb-0">
         <div className="hidden lg:flex items-center justify-center h-full ">
-          <Swiper
-            modules={[ Autoplay ]}
-            slidesPerView={3}
-            autoplay={{ delay: 3000 }}
-
-            className={'hidden lg:flex h-full w-full mb-0 pb-0'}
-          >
-            <SwiperSlide><Image src={us1} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us2} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us3} priority={true} className="grayscale-[80%] object-[74%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us4} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us5} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us7} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us8} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us9} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us0} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-          </Swiper>
+         <Slider/>
         </div>
         <div className="flex lg:hidden items-center justify-center h-full ">
-          <Swiper
-            modules={[ Autoplay ]}
-            slidesPerView={1}
-            autoplay={{ delay: 3000 }}
-
-            className={'h-full relative w-full mb-0 lg:invisible  pb-0'}
-          >
-            <SwiperSlide><Image src={us1} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us2} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us3} priority={true} className="grayscale-[80%] object-[74%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us4} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us5} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us7} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us8} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us9} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-            <SwiperSlide><Image src={us0} priority={true} className="grayscale-[80%]" layout={'fill'}
-                                objectFit={'cover'} /></SwiperSlide>
-          </Swiper>
+          <Slider/>
         </div>
         <div className="absolute rounded max-w-md mr-auto ml-auto bottom-20 left-0 z-10 right-0">
 
