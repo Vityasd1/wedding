@@ -35,7 +35,7 @@ export const Slider = ({slidesPerView,mobile}) => (
     <SwiperSlide><Image src={us5} priority={true} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
-                        objectFit={'cover'} priority={true} /></SwiperSlide>
+                        objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} priority={true} /></SwiperSlide>
     <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
@@ -97,7 +97,7 @@ export const Welcome = (props) => {
           height="150"
           width="150"
           radius="9"
-          color="green"
+          color="pink"
           ariaLabel="loading"
         />
       </div>
