@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Image from 'next/image'
 const focusedBtn = "w-40 p-3 m-3 md:m-0 rounded text-white border-2 border-main active:border-none bg-main focus:transition-all"
-const normalBtn = "w-40 p-3 m-3 md:m-0 rounded hover:bg-main transition ease-in duration-500 border border-main text-main focus:transition-all"
+const normalBtn = "w-40 p-3 m-3 md:m-0 rounded hover:bg-main hover:text-white transition ease-in duration-500 border border-main text-main focus:transition-all"
 export const Map = (props) => {
 
     const [tab, setTab] = useState(0);
