@@ -5,16 +5,16 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
-import us1 from '../public/images/carousel/elso.webp'
-import us2 from '../public/images/carousel/masodik.webp'
-import us3 from '../public/images/carousel/harmadik.webp'
-import us4 from '../public/images/carousel/negyedik_.webp'
-import us5 from '../public/images/carousel/otidik.webp'
-import us6 from '../public/images/carousel/hatodik.webp'
-import us7 from '../public/images/carousel/hetedik.webp'
-import us8 from '../public/images/carousel/kilencedik.webp'
-import us9 from '../public/images/carousel/elso.webp'
-import us0 from '../public/images/carousel/tizedik.webp'
+import us1 from '../public/images/carousel-small/elso.webp'
+import us2 from '../public/images/carousel-small/masodik.webp'
+import us3 from '../public/images/carousel-small/harmadik.webp'
+import us4 from '../public/images/carousel-small/negyedik_.webp'
+import us5 from '../public/images/carousel-small/otidik.webp'
+import us6 from '../public/images/carousel-small/hatodik.webp'
+import us7 from '../public/images/carousel-small/hetedik.webp'
+import us8 from '../public/images/carousel-small/kilencedik.webp'
+import us9 from '../public/images/carousel-small/elso.webp'
+import us0 from '../public/images/carousel-small/tizedik.webp'
 import { Hearts } from 'react-loader-spinner'
 
 export const Slider = ({slidesPerView,mobile}) => (
@@ -32,18 +32,18 @@ export const Slider = ({slidesPerView,mobile}) => (
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us4} priority={true} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us5} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us5} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us6} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us6} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
-                        objectFit={'cover'} priority={true} /></SwiperSlide>
+                        objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
-                        objectFit={'cover'} priority={true} /></SwiperSlide>
+                        objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us9} className="grayscale-[80%]" layout={'fill'}
-                        objectFit={'cover'} priority={true} /></SwiperSlide>
+                        objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us0} className="grayscale-[80%]" layout={'fill'}
-                        objectFit={'cover'} priority={true} /></SwiperSlide>
+                        objectFit={'cover'} /></SwiperSlide>
   </Swiper>
 )
 

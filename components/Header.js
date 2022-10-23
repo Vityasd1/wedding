@@ -3,8 +3,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { useToggle } from '../providers/ToggleProvider'
 
 export const Header = (props) => {
+  const toggles = useToggle();
+  console.log(toggles);
   const [ toggle, setToggle ] = useState(false)
   const router = useRouter()
   return (
@@ -19,7 +22,7 @@ export const Header = (props) => {
         </Link>
         <Link href={'/'}>
         <a>
-          <Image className={'cursor-pointer'} src={'/images/logo.png'} width={100} height={100} />
+          <Image alt={"logo"} className={'cursor-pointer'} src={'/images/logo.png'} width={100} height={100} />
         </a>
         </Link>
         <Link href={'/booking'}>
@@ -33,25 +36,16 @@ export const Header = (props) => {
       </div>
       <div className='flex md:hidden justify-between items-center p-3'>
         <MenuIcon onClick={() => setToggle(!toggle)} className={'h-6 cursor-pointer text-black'} />
-        <Link href={'/'}>
-        <a>
-          <img src='/images/logo.png' alt='Logo' className='h-6' />
-        </a>
-        </Link>
       </div>
 
       {toggle &&
-      <div className="md:hidden z-50 fixed h-full w-full absolute top-0 bg-gray-300/50 overflow-hidden" onClick={() => setToggle(!toggle)}>
+      <div className="md:hidden z-50 h-full w-full absolute top-0 bg-gray-300/50" onClick={() => setToggle(!toggle)}>
         <div className="bg-gray-300 w-3/4 h-full animate-slide-in">
-          {/*<div className="flex justify-end items-center">*/}
-          {/*    <XIcon className="h-6" onClick={() => setToggle(false)}/>*/}
-          {/*</div>*/}
           <div className="flex w-full items-center justify-between">
             <Link href={'/'}>
               <a>
-                <img src='/images/logo.png' alt='Logo' onClick={() => setToggle(!toggle)} className='h-24' />
+                <Image alt={"logo"} className={'cursor-pointer'} src={'/images/logo.png'} width={100} height={100} />
               </a></Link>
-            {/*<XIcon className="h-12" onClick={() => setToggle(false)}/>*/}
           </div>
           <div className='flex flex-col items-center gap-3 justify-center text-main'>
             <Link href={'/'}>
