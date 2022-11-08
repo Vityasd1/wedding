@@ -16,7 +16,7 @@ export const Header = (props) => {
         <Link href={'/program'}>
           <a>
             <p
-              className={router.pathname === '/program' ? 'scale-125 text-[#4B5563]' : 'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Program</p>
+              className={router.pathname === '/program' ? 'underline underline-offset-2' : 'hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Program</p>
           </a>
         </Link>
         <Link href={'/'}>
@@ -27,14 +27,14 @@ export const Header = (props) => {
         <Link href={'/booking'}>
           <a>
             <p
-              className={router.pathname === '/booking' ? 'scale-125 text-[#4B5563]' : 'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Szállás opciók</p>
+              className={router.pathname === '/booking' ? 'underline underline-offset-2' : 'hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Szállás opciók</p>
           </a>
         </Link>
 
         <Link href={'/infos'}>
           <a>
             <p
-              className={router.pathname === '/infos' ? 'scale-125 text-[#4B5563]' : 'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Hasznos információk</p>
+              className={router.pathname === '/infos' ? 'underline underline-offset-2' : 'hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Hasznos információk</p>
           </a>
         </Link>
       </div>
@@ -54,20 +54,20 @@ export const Header = (props) => {
           <div className="flex flex-col items-center gap-3 justify-center text-main">
             <Link href={'/'}>
               <p onClick={() => setToggle(!toggle)}
-                 className={router.pathname === '/' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Kezdőlap</p>
+                 className={router.pathname === '/' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Kezdőlap</p>
             </Link>
             <Link href={'/program'}>
               <p onClick={() => setToggle(!toggle)}
-                 className={router.pathname === '/program' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Program</p>
+                 className={router.pathname === '/program' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Program</p>
             </Link>
             <Link href={'/booking'}>
               <p onClick={() => setToggle(!toggle)}
-                 className={router.pathname === '/booking' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Szállás
+                 className={router.pathname === '/booking' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Szállás
                 opciók</p>
             </Link>
             <Link href={'/infos'}>
               <p onClick={() => setToggle(!toggle)}
-                 className={router.pathname === '/infos' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Hasznos információk</p>
+                 className={router.pathname === '/infos' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Hasznos információk</p>
             </Link>
           </div>
         </div>

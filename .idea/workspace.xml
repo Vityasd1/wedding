@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/infos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/infos.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/infos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/vitya.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about/vitya.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cake1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/cake1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/camera1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/camera1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel-small/elso.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel-small/elso.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel-small/kilencedik.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel-small/kilencedik.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel-small/masodik.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel-small/masodik.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel-small/tizedik.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel-small/tizedik.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/church1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/church1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dance1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/dance1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dinner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/dinner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lagzi.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/lagzi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/leaf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/polgari.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/polgari.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/program-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/program-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ring1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/ring1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/templom.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/templom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline/eljegyz.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline/eljegyz.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline/elsorandi.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline/elsorandi.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline/fuge.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline/fuge.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline/home.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline/home.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/timeline_wedding.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/timeline_wedding.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +87,7 @@
       <workItem from="1664696169614" duration="18890000" />
       <workItem from="1664779542436" duration="79000" />
       <workItem from="1666530396237" duration="4878000" />
-      <workItem from="1667924140080" duration="8066000" />
+      <workItem from="1667924140080" duration="9678000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>
@@ -173,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666534725650</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="image optimization, infos page">
+      <created>1667933849450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667933849450</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +175,7 @@
     <MESSAGE value="mobile kepek" />
     <MESSAGE value="duplikalt prop" />
     <MESSAGE value="image optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="image optimization" />
+    <MESSAGE value="image optimization, infos page" />
+    <option name="LAST_COMMIT_MESSAGE" value="image optimization, infos page" />
   </component>
 </project>

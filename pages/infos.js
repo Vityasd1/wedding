@@ -24,10 +24,7 @@ export default function Infos () {
           <p className="pl-6">
             Lagzi helyszín: Ajka Ipari Park Északi szektor III/1, Nomádia park
           </p>
-        </div>
-        <div
-          className="container bg-white mx-auto rounded-lg text-main bg-opacity-80 flex flex-col justify-center mb-12 p-6 gap-3 ">
-          <h1 className="font-semibold text-xl underline">Szállás/Közlekedés:</h1>
+          <h1 className="font-semibold mt-6 text-xl underline">Szállás/Közlekedés:</h1>
           <p className="pl-6">
             A helyszínen szállás lehetőség <span className="font-semibold">NINCS!</span> Közelben található lehetőségek a szállás menüpont alatt találhatóak.
           </p>

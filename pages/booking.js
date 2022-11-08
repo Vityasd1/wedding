@@ -103,7 +103,7 @@ export const Accommodation = ({ title, infos, link }) => {
           Megnézem!
         </button>
       </div>
-      <div className="row-span-3 text-center text-lg flex flex-col items-center justify-center">
+      <div className="row-span-3 text-main text-center text-lg flex flex-col items-center justify-center">
         {infos.map((el, index) => {
           return <p key={index}>{el}</p>
         })

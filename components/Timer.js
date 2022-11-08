@@ -68,7 +68,7 @@ export const Timer = (props) => {
 
                 </Countdown>
                 <p className="text-center">
-                    az esküvönkig
+                    a nagy napig!
                 </p>
             </div>
             }
