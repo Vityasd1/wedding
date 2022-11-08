@@ -30,17 +30,17 @@ export const Slider = ({slidesPerView,mobile}) => (
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us3} priority={true} className="grayscale-[80%] object-[74%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us4} priority={true} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us4} priority={true} className={mobile ? "grayscale-[80%] object-[70%]" : "grayscale-[80%]"} layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us5} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us6} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us6} className={mobile ? "grayscale-[80%] object-[60%]" :"grayscale-[80%]"} layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us7} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us8} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us8} className={mobile ? "grayscale-[80%] object-[32%]" :"grayscale-[80%]"} layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
-    <SwiperSlide><Image src={us9} className="grayscale-[80%]" layout={'fill'}
+    <SwiperSlide><Image src={us9} className={"grayscale-[80%]"} layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>
     <SwiperSlide><Image src={us0} className="grayscale-[80%]" layout={'fill'}
                         objectFit={'cover'} /></SwiperSlide>

@@ -9,7 +9,7 @@ export const Program = (props) => {
         <>
             <div className="flex flex-col h-screen">
                     <Header/>
-                <div className="flex flex-col items-center h-full justify-center bg-[url('/images/program-bg.png')] border-t-4 border-main ">
+                <div className="flex flex-col items-center h-full justify-center bg-[url('/images/bgs.svg')] border-t-4 border-main ">
                     <div className={"p-2 rounded-2xl bg-white bg-opacity-50"}>
                         <ProgramComponent text={"Templomi szertartás"} time={"16:00"} src={"/images/church1.png"}/>
                         <ProgramComponent text={"Polgári szertartás"} time={"17:00"} src={"/images/ring1.png"}/>
