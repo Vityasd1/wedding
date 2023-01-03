@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/infos.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/infos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/program.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,7 @@
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitya\IdeaProjects\wedding\public" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images\carousel" />
       <recent name="C:\Users\Vitya\IdeaProjects\wedding\public\images" />
     </key>
@@ -88,6 +84,8 @@
       <workItem from="1664779542436" duration="79000" />
       <workItem from="1666530396237" duration="4878000" />
       <workItem from="1667924140080" duration="9678000" />
+      <workItem from="1667979009731" duration="979000" />
+      <workItem from="1672663032451" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>

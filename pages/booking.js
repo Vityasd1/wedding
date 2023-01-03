@@ -122,7 +122,7 @@ export default function Booking () {
         <div
           className="text-main container mx-auto bg-white bg-opacity-80 py-2 rounded-lg font-indie flex flex-col text-center items-center justify-center my-12">
           <h1 className="text-3xl font-semibold mb-4">Közelben lévő szállások</h1>
-          <p className="text-lg">Kedves leendő vendégeink ezen az oldalon találjátok a környéken foglalható szállások
+          <p className="text-lg md:mx-0 mx-6">Kedves leendő vendégeink ezen az oldalon találjátok a környéken foglalható szállások
             listáját. A helyszínen
             szállás lehetőség <strong>NINCS!</strong>
             <br />Ajka és Veszprém (és környéke) között Transfer fog közlekedni az est folyamán.
