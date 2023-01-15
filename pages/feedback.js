@@ -86,7 +86,7 @@ export default function Feedback () {
                   focus:border-main focus:z-10 sm:text-sm"
                 placeholder="Üzenet..."
               />
-              <input type="submit" value="Küldés" className="bg-main text-white rounded-full py-2 w-1/2 mx-auto"/>
+              <input type="submit" value="Küldés" className="bg-main cursor-pointer text-white rounded-full py-2 w-1/2 mx-auto"/>
             </form>
           </div>
         </div>
