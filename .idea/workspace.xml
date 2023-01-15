@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6434f6-75b5-4977-a4a8-840302ea070e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/feedback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/infos.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/infos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,8 @@
       <workItem from="1666530396237" duration="4878000" />
       <workItem from="1667924140080" duration="9678000" />
       <workItem from="1667979009731" duration="979000" />
-      <workItem from="1672663032451" duration="3423000" />
+      <workItem from="1672663032451" duration="3471000" />
+      <workItem from="1673802191812" duration="6842000" />
     </task>
     <task id="LOCAL-00001" summary="Esküvői honlap félkész">
       <created>1662228744314</created>
@@ -163,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672729311349</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Change page title">
+      <created>1672730639132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672730639132</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +193,7 @@
     <MESSAGE value="image optimization" />
     <MESSAGE value="image optimization, infos page" />
     <MESSAGE value="change mr favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="change mr favicon" />
+    <MESSAGE value="Change page title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change page title" />
   </component>
 </project>

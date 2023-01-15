@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Header } from '../components/Header'
 import { Timer } from '../components/Timer'
 
 export default function Infos () {
+
   return (
     <>
       <Header />
@@ -34,6 +35,11 @@ export default function Infos () {
           <p className="pl-6">
             Ajka és Veszprém (és környéke) között transfer fog közlekedni az est folyamán.
           </p>
+        </div>
+
+        <div
+          className="container bg-white mx-auto rounded-lg text-main bg-opacity-80 flex flex-col justify-center  p-6 gap-3 mb-12">
+          <iframe src="https://drive.google.com/file/d/1Rfnkri-TUi1mAo_fAUlyHMiwoLDJIahP/preview" className="w-full" height="690" allow="autoplay"></iframe>
         </div>
       </div>
       <Timer />

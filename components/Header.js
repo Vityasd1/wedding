@@ -12,7 +12,12 @@ export const Header = (props) => {
   return (
     <>
       <div className={'hidden md:flex flex-row justify-evenly items-center h-24 text-main'}>
-        <p className={'hover:scale-125 transition-all hover:text-[#4B5563] cursor-pointer'}>Meghívó</p>
+        <Link href={'/feedback'}>
+          <a>
+            <p
+              className={router.pathname === '/feedback' ? 'underline underline-offset-2' : 'hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Visszajelzés</p>
+          </a>
+        </Link>
         <Link href={'/program'}>
           <a>
             <p
@@ -55,6 +60,10 @@ export const Header = (props) => {
             <Link href={'/'}>
               <p onClick={() => setToggle(!toggle)}
                  className={router.pathname === '/' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Kezdőlap</p>
+            </Link>
+            <Link href={'/feedback'}>
+              <p onClick={() => setToggle(!toggle)}
+                 className={router.pathname === '/feedback' ? 'underline text-main text-xl' : 'text-xl hover:scale-125 transition-all hover:underline hover:underline-offset-2 cursor-pointer'}>Visszajelzés</p>
             </Link>
             <Link href={'/program'}>
               <p onClick={() => setToggle(!toggle)}
